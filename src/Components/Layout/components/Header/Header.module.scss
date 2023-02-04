@@ -12,4 +12,32 @@
     // background-color: #ccc;
     margin: 0 auto;
     padding: 0 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.logo {}
+
+.search {
+    width: 361px;
+    height: 46px;
+    background-color: #f1f1f2;
+    border-radius: 92px;
+    padding: 0px 16px;
+
+    input {
+        height: 100%;
+        color: #828282;
+        font-size: 1.6rem;
+        border: none;
+        background-color: transparent;
+        outline: none;
+    }
+}
+
+.clear {}
+
+.loading {}
+
+.search {}
