@@ -28,11 +28,10 @@
 
     input {
         height: 100%;
-        color: #828282;
+        color: var(--black);
         font-size: 1.6rem;
-        border: none;
         background-color: transparent;
-        outline: none;
+        flex: 1;
     }
 }
 
@@ -40,4 +39,9 @@
 
 .loading {}
 
-.search {}
+.search-btn {
+    width: 52px;
+    height: 100%;
+    border-top-right-radius: var(--search-border-radius);
+    border-bottom-right-radius: var(--search-border-radius);
+}
